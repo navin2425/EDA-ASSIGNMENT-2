@@ -16,7 +16,7 @@
 * **Institution:** KPR Institute of Engineering and Technology, Coimbatore - 641 407, Tamil Nadu, India
 * **Course Coordinator:** Mr. Rushikesh Kadam, Assistant Professor, Dept. of AI & DS
 * **Academic Year / Batch:** 2026-2027 / 2023-2027
-* **GitHub Repository:** [navin2425/eda-visualization-case-study](https://github.com/navin2425/eda-visualization-case-study)
+* **GitHub Repository:** [navin2425/EDA-ASSIGNMENT-2](https://github.com/navin2425/EDA-ASSIGNMENT-2)
 
 ---
 
@@ -194,8 +194,8 @@ In telecommunications churn management, classification errors have profoundly as
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/navin2425/eda-visualization-case-study.git
-cd eda-visualization-case-study
+git clone https://github.com/navin2425/EDA-ASSIGNMENT-2.git
+cd EDA-ASSIGNMENT-2
 ```
 
 ### 2. Install Dependencies
@@ -237,3 +237,4 @@ python src/generate_pdf_report.py
 ## 📄 License
 This academic project is open-source and licensed under the [MIT License](LICENSE).
 Author: **Navin J** (Roll No: 24AD071), Department of Artificial Intelligence and Data Science, KPRIET, Coimbatore.
+

@@ -26,7 +26,7 @@ def build_notebook():
 **Institution:** KPR Institute of Engineering and Technology, Coimbatore  
 **Course Coordinator:** Mr. Rushikesh Kadam | **Batch:** 2023-2027  
 **Dataset:** Telco Customer Churn (IBM Sample Dataset / Kaggle, 7,043 rows, 21 features)  
-**GitHub Repository:** [navin2425/eda-visualization-case-study](https://github.com/navin2425/eda-visualization-case-study)
+**GitHub Repository:** [navin2425/EDA-ASSIGNMENT-2](https://github.com/navin2425/EDA-ASSIGNMENT-2)
 
 ---
 
