@@ -1,0 +1,6 @@
+Configuration,Hidden Units,Learning Rate,Dropout,Batch Size,Val Accuracy,Val F1-Score,Val ROC-AUC,Val PR-AUC
+Config 1 (Baseline LR),"[64, 32]",0.001,0.3,64,74.34%,0.6343,0.8413,0.6302
+Config 2 (High LR),"[64, 32]",0.01,0.3,64,70.64%,0.6036,0.8436,0.6272
+"Config 3 (Low LR, High Drop)","[64, 32]",0.0005,0.5,64,74.72%,0.6307,0.8447,0.6348
+Config 4 (Deeper [128-64]),"[128, 64]",0.001,0.3,32,73.20%,0.6281,0.8335,0.6082
+Config 5 (Lightweight [32-16]),"[32, 16]",0.001,0.2,64,72.63%,0.6202,0.8414,0.6254

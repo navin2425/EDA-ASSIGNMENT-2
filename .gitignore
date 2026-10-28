@@ -1,0 +1,17 @@
+# Python byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and runtime
+outputs/.matplotlib/
+outputs/.ipython/
+outputs/.jupyter_data/
+outputs/.jupyter_runtime/
+outputs/.jupyter_config/
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,308 @@
+{
+    "stats_summary": {
+        "tenure": {
+            "mean": 32.37114865824223,
+            "std": 24.55948102309446,
+            "median": 29.0,
+            "iqr": 46.0,
+            "min": 0.0,
+            "max": 72.0,
+            "skewness": 0.2395397495619829,
+            "kurtosis": -1.3873716359716848
+        },
+        "MonthlyCharges": {
+            "mean": 64.76169246059918,
+            "std": 30.090047097678493,
+            "median": 70.35,
+            "iqr": 54.349999999999994,
+            "min": 18.25,
+            "max": 118.75,
+            "skewness": -0.22052443394398008,
+            "kurtosis": -1.2572596945495058
+        },
+        "TotalCharges_clean": {
+            "mean": 2279.7343035638223,
+            "std": 2266.7944696890213,
+            "median": 1394.55,
+            "iqr": 3388.0499999999997,
+            "min": 0.0,
+            "max": 8684.8,
+            "skewness": 0.963234654832277,
+            "kurtosis": -0.2285798071237311
+        }
+    },
+    "chi2_results": {
+        "gender": {
+            "chi2": 0.4840828822091383,
+            "p_value": 0.48657873605618596,
+            "dof": 1,
+            "cramers_v": 0.008290505631771371
+        },
+        "SeniorCitizen": {
+            "chi2": 159.42630036838742,
+            "p_value": 1.510066805092378e-36,
+            "dof": 1,
+            "cramers_v": 0.15045309974200427
+        },
+        "Partner": {
+            "chi2": 158.7333820309922,
+            "p_value": 2.1399113440759935e-36,
+            "dof": 1,
+            "cramers_v": 0.15012578474988478
+        },
+        "Dependents": {
+            "chi2": 189.12924940423474,
+            "p_value": 4.9249216612154196e-43,
+            "dof": 1,
+            "cramers_v": 0.1638703967886369
+        },
+        "PhoneService": {
+            "chi2": 0.9150329892546948,
+            "p_value": 0.3387825358066928,
+            "dof": 1,
+            "cramers_v": 0.011398285522718045
+        },
+        "MultipleLines": {
+            "chi2": 11.33044148319756,
+            "p_value": 0.0034643829548773003,
+            "dof": 2,
+            "cramers_v": 0.04010925283378871
+        },
+        "InternetService": {
+            "chi2": 732.309589667794,
+            "p_value": 9.571788222840544e-160,
+            "dof": 2,
+            "cramers_v": 0.32245455521230887
+        },
+        "OnlineSecurity": {
+            "chi2": 849.9989679615965,
+            "p_value": 2.661149635176552e-185,
+            "dof": 2,
+            "cramers_v": 0.3474004326740552
+        },
+        "OnlineBackup": {
+            "chi2": 601.812790113409,
+            "p_value": 2.0797592160864276e-131,
+            "dof": 2,
+            "cramers_v": 0.2923155121954445
+        },
+        "DeviceProtection": {
+            "chi2": 558.419369407389,
+            "p_value": 5.505219496457244e-122,
+            "dof": 2,
+            "cramers_v": 0.281579732968073
+        },
+        "TechSupport": {
+            "chi2": 828.1970684587394,
+            "p_value": 1.4430840279998987e-180,
+            "dof": 2,
+            "cramers_v": 0.3429161982469257
+        },
+        "StreamingTV": {
+            "chi2": 374.2039433109813,
+            "p_value": 5.528994485739183e-82,
+            "dof": 2,
+            "cramers_v": 0.2305023384466809
+        },
+        "StreamingMovies": {
+            "chi2": 375.6614793452656,
+            "p_value": 2.667756755723681e-82,
+            "dof": 2,
+            "cramers_v": 0.23095080906926801
+        },
+        "Contract": {
+            "chi2": 1184.5965720837926,
+            "p_value": 5.863038300673391e-258,
+            "dof": 2,
+            "cramers_v": 0.4101156965761409
+        },
+        "PaperlessBilling": {
+            "chi2": 258.27764906707307,
+            "p_value": 4.073354668665985e-58,
+            "dof": 1,
+            "cramers_v": 0.19149814355338285
+        },
+        "PaymentMethod": {
+            "chi2": 648.1423274814,
+            "p_value": 3.6823546520097993e-140,
+            "dof": 3,
+            "cramers_v": 0.30335862555407056
+        },
+        "tenure_cohort": {
+            "chi2": 872.4724944206446,
+            "p_value": 1.5336320944401804e-187,
+            "dof": 4,
+            "cramers_v": 0.35196301388588874
+        }
+    },
+    "ttest_results": {
+        "tenure": {
+            "welch_t": -34.823818696312976,
+            "t_p_value": 1.195494547260576e-232,
+            "mann_whitney_u": 2515538.0,
+            "mw_p_value": 2.419635517951866e-208,
+            "point_biserial_r": -0.3522286701130779,
+            "pb_p_value": 7.999057960588305e-205,
+            "mean_churn": 17.979133226324237,
+            "mean_nochurn": 37.56996521066873
+        },
+        "MonthlyCharges": {
+            "welch_t": 18.407526676414673,
+            "t_p_value": 8.592449331547067e-73,
+            "mann_whitney_u": 6003125.5,
+            "mw_p_value": 3.311627651988585e-54,
+            "point_biserial_r": 0.19335642223784705,
+            "pb_p_value": 2.7066456068880733e-60,
+            "mean_churn": 74.44133226324237,
+            "mean_nochurn": 61.26512369540008
+        },
+        "TotalCharges_clean": {
+            "welch_t": -18.706618288177044,
+            "t_p_value": 5.902580609071861e-75,
+            "mann_whitney_u": 3381224.0,
+            "mw_p_value": 5.685033866207314e-83,
+            "point_biserial_r": -0.1983242626039956,
+            "pb_p_value": 2.1272116132398846e-63,
+            "mean_churn": 1531.7960941680042,
+            "mean_nochurn": 2549.911441824507
+        }
+    },
+    "model_eval": [
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": "75.21%",
+            "Precision": "0.5231",
+            "Recall (Sensitivity)": "0.7651",
+            "F1-Score": "0.6214",
+            "ROC-AUC": "0.8421",
+            "PR-AUC (Avg Prec)": "0.6498"
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": "76.25%",
+            "Precision": "0.5371",
+            "Recall (Sensitivity)": "0.7722",
+            "F1-Score": "0.6336",
+            "ROC-AUC": "0.8380",
+            "PR-AUC (Avg Prec)": "0.6629"
+        },
+        {
+            "Model": "Deep Learning MLP",
+            "Accuracy": "73.23%",
+            "Precision": "0.4979",
+            "Recall (Sensitivity)": "0.8505",
+            "F1-Score": "0.6281",
+            "ROC-AUC": "0.8401",
+            "PR-AUC (Avg Prec)": "0.6528"
+        }
+    ],
+    "hyperparameter_tuning": [
+        {
+            "Configuration": "Config 1 (Baseline LR)",
+            "Hidden Units": "[64, 32]",
+            "Learning Rate": 0.001,
+            "Dropout": 0.3,
+            "Batch Size": 64,
+            "Val Accuracy": "74.34%",
+            "Val F1-Score": "0.6343",
+            "Val ROC-AUC": "0.8413",
+            "Val PR-AUC": "0.6302"
+        },
+        {
+            "Configuration": "Config 2 (High LR)",
+            "Hidden Units": "[64, 32]",
+            "Learning Rate": 0.01,
+            "Dropout": 0.3,
+            "Batch Size": 64,
+            "Val Accuracy": "70.64%",
+            "Val F1-Score": "0.6036",
+            "Val ROC-AUC": "0.8436",
+            "Val PR-AUC": "0.6272"
+        },
+        {
+            "Configuration": "Config 3 (Low LR, High Drop)",
+            "Hidden Units": "[64, 32]",
+            "Learning Rate": 0.0005,
+            "Dropout": 0.5,
+            "Batch Size": 64,
+            "Val Accuracy": "74.72%",
+            "Val F1-Score": "0.6307",
+            "Val ROC-AUC": "0.8447",
+            "Val PR-AUC": "0.6348"
+        },
+        {
+            "Configuration": "Config 4 (Deeper [128-64])",
+            "Hidden Units": "[128, 64]",
+            "Learning Rate": 0.001,
+            "Dropout": 0.3,
+            "Batch Size": 32,
+            "Val Accuracy": "73.20%",
+            "Val F1-Score": "0.6281",
+            "Val ROC-AUC": "0.8335",
+            "Val PR-AUC": "0.6082"
+        },
+        {
+            "Configuration": "Config 5 (Lightweight [32-16])",
+            "Hidden Units": "[32, 16]",
+            "Learning Rate": 0.001,
+            "Dropout": 0.2,
+            "Batch Size": 64,
+            "Val Accuracy": "72.63%",
+            "Val F1-Score": "0.6202",
+            "Val ROC-AUC": "0.8414",
+            "Val PR-AUC": "0.6254"
+        }
+    ],
+    "top_features": [
+        {
+            "Feature": "is_month_to_month",
+            "RF_MDI_Importance": 0.16190153563737772,
+            "Permutation_Importance": 0.0007575757575758013
+        },
+        {
+            "Feature": "charge_ratio",
+            "RF_MDI_Importance": 0.11422995190480936,
+            "Permutation_Importance": -0.0007575757575757347
+        },
+        {
+            "Feature": "tenure",
+            "RF_MDI_Importance": 0.10961048636853782,
+            "Permutation_Importance": 0.0007575757575757792
+        },
+        {
+            "Feature": "TotalCharges_clean",
+            "RF_MDI_Importance": 0.0790442034965017,
+            "Permutation_Importance": -0.0024621212121212154
+        },
+        {
+            "Feature": "MonthlyCharges",
+            "RF_MDI_Importance": 0.07238259081573546,
+            "Permutation_Importance": -0.003409090909090895
+        },
+        {
+            "Feature": "Contract_Two year",
+            "RF_MDI_Importance": 0.07157068128615685,
+            "Permutation_Importance": -0.007575757575757569
+        },
+        {
+            "Feature": "InternetService_Fiber optic",
+            "RF_MDI_Importance": 0.06681776294292659,
+            "Permutation_Importance": -0.0037878787878787845
+        },
+        {
+            "Feature": "PaymentMethod_Electronic check",
+            "RF_MDI_Importance": 0.03334487228432072,
+            "Permutation_Importance": -0.0007575757575757347
+        },
+        {
+            "Feature": "Contract_One year",
+            "RF_MDI_Importance": 0.01952398185063024,
+            "Permutation_Importance": -0.0013257575757575468
+        },
+        {
+            "Feature": "OnlineSecurity_Yes",
+            "RF_MDI_Importance": 0.01901270419040028,
+            "Permutation_Importance": -0.00056818181818179
+        }
+    ]
+}

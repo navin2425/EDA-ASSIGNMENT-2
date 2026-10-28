@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall (Sensitivity),F1-Score,ROC-AUC,PR-AUC (Avg Prec)
+Logistic Regression,75.21%,0.5231,0.7651,0.6214,0.8421,0.6498
+Random Forest,76.25%,0.5371,0.7722,0.6336,0.8380,0.6629
+Deep Learning MLP,73.23%,0.4979,0.8505,0.6281,0.8401,0.6528
